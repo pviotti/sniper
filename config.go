@@ -232,7 +232,7 @@ func (c *Config) setDefaultConfig() {
 	c.Protocol.acceptEncoding = "*"
 	c.Protocol.connection = "close"
 	c.Protocol.userAgent = "Golang & Sniper"
-	c.Command.contentType = "text/plain"
+	//c.Command.contentType = "text/plain"
 }
 
 func (c *Config) prepareFlag(args []string) {
